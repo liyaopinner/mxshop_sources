@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+
+# pip install pycryptodome
 __author__ = 'bobby'
 
 from datetime import datetime
