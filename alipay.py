@@ -50,7 +50,7 @@ class AliPay(object):
         }
 
         biz_content.update(kwargs)
-        data = self.build_body("alipay.trade.page.pay", biz_content, return_url)
+        data = self.build_body("alipay.trade.page.pay", biz_content, self.return_url)
         return self.sign_data(data)
 
     def build_body(self, method, biz_content, return_url=None):
